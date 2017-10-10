@@ -42,12 +42,13 @@ in the non-dominant class.
 
 ```python
 Before Class Balancing:
-  Number of Vehicles in training set:  1196
-  Number of Non Vehicels in training set:  1125
+  Number of Vehicles in training set:  8792
+  Number of Non Vehicels in training set:  8968
 
 After Class Balancing:
-  Number of Vehicles in training set:  1196
-  Number of Non Vehicels in training set:  1196
+  Number of Vehicles in training set:  8968
+  Number of Non Vehicels in training set:  8968
+
 ```
 
 I then explored different color spaces and different `skimage.hog()` parameters (`orientations`, `pixels_per_cell`, and `cells_per_block`).  I grabbed random images from each of the two classes and displayed them to get a feel for what the `skimage.hog()` output looks like.

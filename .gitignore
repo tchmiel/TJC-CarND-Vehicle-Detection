@@ -1,6 +1,8 @@
 # TJC
 DoNotCommit/
 test_frame_images/
+output_frame_images/
+training_images/large/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
